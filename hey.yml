@@ -15,3 +15,9 @@
     - name: show message
       debug:
         msg: "Fine, I hope."
+    - name: show message
+      copy:
+        dest: /tmp/resolv.conf
+        content: "nameserver is "
+         
+        
