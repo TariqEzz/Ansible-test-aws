@@ -1,0 +1,17 @@
+---
+
+- name: how to use tags
+  hosts: all
+  tasks:
+
+    - name: show message
+      debug:
+        msg: "Hello"
+
+    - name: show message
+      debug:
+        msg: "How are you ?"
+
+    - name: show message
+      debug:
+        msg: "Fine, I hope."
